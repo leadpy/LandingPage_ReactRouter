@@ -5,13 +5,13 @@ import signupImg from "../assets/signup.png"
 function Signup({setIsLoggedIn}){
     return(
         <Template
-        title="Join the millions learning to code with StudyNotion for free"
-        desc1="Build skills for today, tomorrow, and beyond."
-        desc2="Education to future-proof your career."
+        title="Junte-se à VoxCity"
+        desc1="Experimente a eficiência e praticidade de um PABX virtual moderno."
+        desc2="Simplifique a gestão de suas comunicações empresariais."
         image={signupImg}
         formtype="signup"
         setIsLoggedIn={setIsLoggedIn}
-        />
+      />      
     )
 }
 

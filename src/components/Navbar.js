@@ -11,20 +11,6 @@ function Navbar(props){
           <Link to="/">
             <img src={logo} alt="Logo" width={160} height={32} loading="lazy" />
           </Link>
-          
-          <nav>
-            <ul className='text-richblack-100 flex gap-x-6'>
-                <li>
-                    <Link to="/">Home</Link>
-                </li>
-                <li>
-                    <Link to="/">About</Link>
-                </li>
-                <li>
-                    <Link to="/">Contact</Link>
-                </li>
-            </ul>
-          </nav>
 
           {/* Login - Signup - LogOut - Dashboard */}
           <div className='flex items-center gap-x-4'>

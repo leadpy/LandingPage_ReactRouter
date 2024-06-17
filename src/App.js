@@ -14,7 +14,7 @@ import PrivateRoute from "./components/PrivateRoute";
 function App() {
   const[isLoggedIn, setIsLoggedIn] =  useState(false);
   return(
-    <div className="w-screen min-h-screen bg-richblack-900 flex flex-col">
+    <div className="w-screen min-h-screen flex flex-col"  style={{ backgroundColor: "#00365F" }}>
       <Navbar isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn}/>
       <Routes>
         <Route path="/" element={<Home isLoggedIn={isLoggedIn}/>}/>
